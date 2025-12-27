@@ -2,7 +2,7 @@ name: Daily Tech Digest
 
 on:
   schedule:
-    - cron: "0 1 * * *" # Every day at 01:00 UTC
+    - cron: "*/5 * * * *" # Every 5 minutes
   workflow_dispatch:
 
 jobs:
